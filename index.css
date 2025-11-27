@@ -91,9 +91,36 @@ p {
 }
 
 .wrapper-6 div{
-   
+   flex: 9;
+   background-color: red;
 }
 
-.wrapper-6 div:nth-child(odd){
-   
+.wrapper-6 div:nth-child(2){
+   background-color: blue;
+   flex:1;
+}
+
+.wrapper-7 div{
+  background-color: red;
+  flex:1;
+}
+.wrapper-7 div:nth-child(2){
+  background-color: green;
+  flex-direction: column;
+  flex:9;
+  
+}
+.wrapper-7-child div{
+  background-color: blue;
+  flex:9;
+  
+}
+
+.wrapper-9 div{
+  flex: 1;
+}
+
+.wrapper-9 div:nth-child(odd){
+  background-color: orange;
+  flex:9;
 }
